@@ -1,7 +1,7 @@
 package dsa.methods;
 public class MaxOfTwo {
     public static int max(int a, int b) {
-        // TODO
-        return 0;
+        return (a > b) ? a : b;
+        
     }
 }

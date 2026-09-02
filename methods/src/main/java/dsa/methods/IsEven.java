@@ -1,7 +1,7 @@
 package dsa.methods;
 public class IsEven {
     public static boolean isEven(int n) {
-        // TODO
-        return false;
+        boolean result = (n % 2 == 0) ? true : false;
+        return result;
     }
 }
