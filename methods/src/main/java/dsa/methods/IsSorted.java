@@ -1,7 +1,14 @@
 package dsa.methods;
+
+import java.util.Arrays;
+
 public class IsSorted {
     public static boolean isSorted(int[] arr) {
-        // TODO
-        return false;
+        if (arr == Arrays.sort(arr)){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
