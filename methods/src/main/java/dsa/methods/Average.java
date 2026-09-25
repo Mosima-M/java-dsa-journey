@@ -1,14 +1,15 @@
 package dsa.methods;
-public class
-Average {
+public class Average {
     public static double average(int[] arr) {
-        double avg = 0;
-        double len = arr.length;;
-        for (int i = 0; i < arr.length; i++){
-            avg += arr[i];
-
+        int total = 0;
+        double ave = 0;
+        for (int num : arr) {
+            total += num;
         }
-        double mean = avg / len;
-        return mean;
+        return ave = (double) total / arr.length;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(average(new int[]{1,2,3,4,5,6,7,8}));
     }
 }
