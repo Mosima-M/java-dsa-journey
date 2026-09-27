@@ -1,10 +1,7 @@
 package dsa.methods;
 public class MaxOfTwo {
     public static int max(int a, int b) {
-        if (a > b) {
-            return a;
-        }
-        return b;
+        return Math.max(a, b);
     }
 
     public static void main(String[] args) {
